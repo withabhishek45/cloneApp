@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  background-color: #f0f0f0;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  z-index: 100;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 10px #0000001a;
+}
+
+.logo-container {
+  width: 120px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100%;
+}
+
+.nav-items ul {
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: #3d4152;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  color: #fc8019;
+}
+
+.search-container {
+  align-items: center;
+  width: 40%;
+  display: flex;
+}
+
+.search-input {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 100%;
+  padding: .8rem;
+  font-size: 1rem;
+}
+
+.search-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #fc8019;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: .8rem 1.5rem;
+  font-weight: 600;
+}
+
+.search-btn:hover {
+  background-color: #e67a22;
+}
+
+.user-container {
+  cursor: pointer;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.user-name {
+  color: #3d4152;
+  font-weight: 600;
+}
+
+.user-icon {
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+h5 {
+  margin-bottom: 1rem;
+  font-size: .875rem;
+}
+
+h6 {
+  margin-bottom: 1rem;
+  font-size: .75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #6c757d;
+}
+
+a:active {
+  color: #0056b3;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: .25rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004085;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #6c757d;
+}
+
+.logo h1 {
+  color: orange;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=elev ko.9e4c6fd2.css.map */

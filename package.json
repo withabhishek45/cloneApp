@@ -1,0 +1,23 @@
+{
+  "name": "heartbreaking",
+  "version": "1.0.0",
+  "description": "Regert for not starting previously  let's do it for todday",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "REACT",
+    "REACTDOM"
+  ],
+  "author": "ABHISHEK",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
